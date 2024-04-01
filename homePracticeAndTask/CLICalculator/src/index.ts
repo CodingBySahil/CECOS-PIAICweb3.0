@@ -29,11 +29,11 @@ const answer = await inquirer.prompt([
 ]);
 
 if (answer.operator === "addition") {
-  console.log(answer.num1 + answer.num2);
+  console.log(`The ${answer.operator} of ${answer.num1} and ${answer.num2} is : ${answer.num1 + answer.num2}`);
 } else if (answer.operator === "subtraction") {
-  console.log(answer.num1 - answer.num2);
+  console.log(`The ${answer.operator} of ${answer.num1} and ${answer.num2} is : ${answer.num1 - answer.num2}`);
 } else if (answer.operator === "multiplication") {
-  console.log(answer.num1 * answer.num2);
+  console.log(`The ${answer.operator} of ${answer.num1} and ${answer.num2} is : ${answer.num1 * answer.num2}`);
 } else if (answer.operator === "division") {
-  console.log(answer.num1 / answer.num2);
+  console.log(`The ${answer.operator} of ${answer.num1} and ${answer.num2} is : ${answer.num1 / answer.num2}`);
 }
